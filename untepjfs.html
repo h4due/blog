@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Главная</title>
+    </head>
+    <body>
+        <h2>Функция написания своего поста и комментирование</h2>
+        <div id="header"></div>
+        <div id="sidebar">
+            <ul id="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="feedback.html">Обратная связь</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <form id="reg">
+                <input type="text" placeholder="Ввод заголовка новости" name="newtitle"><br>
+                <textarea name="newscontent"></textarea><br>
+                <input type="submit" value="Добавить новость" name="addnews">
+            </form>
+        </div>
+        <div id="footer"></div>
+        <div class="message_body"></div>
+        <div class="comment_add">
+            <form>
+                <input type="hidden" value="id новости" name="msg_id">
+                <textarea name="text"></textarea>
+                <input type="submit" value="добавить комментарий">
+            </form>
+        </div>
+        </div>
+    </body>
+    </html>
